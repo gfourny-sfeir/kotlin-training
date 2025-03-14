@@ -1,7 +1,5 @@
 package fr.training.kotlin.basic.factory
 
-import fr.training.kotlin.basic.factory.KotlinPcMother
-import fr.training.kotlin.basic.factory.PcMother
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 

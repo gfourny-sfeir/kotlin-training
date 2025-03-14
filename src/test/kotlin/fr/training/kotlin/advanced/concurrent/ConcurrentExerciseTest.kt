@@ -2,9 +2,6 @@ package fr.training.kotlin.advanced.concurrent
 
 import com.github.tomakehurst.wiremock.WireMockServer
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration
-import fr.training.kotlin.advanced.concurrent.Apis
-import fr.training.kotlin.advanced.concurrent.JavaConcurrent
-import fr.training.kotlin.advanced.concurrent.KotlinCoroutines
 import org.assertj.core.api.Assertions.assertThat
 import org.assertj.core.api.SoftAssertions.assertSoftly
 import org.awaitility.Awaitility.await

@@ -3,8 +3,6 @@ package fr.training.kotlin.designpattern.strategy.java;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import fr.training.kotlin.designpattern.strategy.java.FormField;
-
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
 
 public class JavaStrategyTest {

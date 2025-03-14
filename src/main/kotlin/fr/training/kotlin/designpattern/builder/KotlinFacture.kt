@@ -23,10 +23,4 @@ class KotlinFactureBuilder {
     )
 }
 
-/*fun buildKotlinFacture(init: KotlinFactureBuilder.() -> Unit) : KotlinFacture {
-    val facture = KotlinFactureBuilder()
-    init.invoke(facture)
-    return facture.build()
-}*/
-
 fun buildKotlinFacture(init: KotlinFactureBuilder.() -> Unit): KotlinFacture = KotlinFactureBuilder().apply(init).build()

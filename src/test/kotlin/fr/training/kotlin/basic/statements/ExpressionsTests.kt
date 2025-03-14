@@ -1,9 +1,6 @@
 package fr.training.kotlin.basic.statements
 
-import fr.training.kotlin.basic.statements.JavaExpressions
 import fr.training.kotlin.basic.statements.JavaExpressions.JavaVehicule
-import fr.training.kotlin.basic.statements.KotlinExpressions
-import fr.training.kotlin.basic.statements.KotlinVehicule
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments

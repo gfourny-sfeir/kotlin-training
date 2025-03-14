@@ -1,8 +1,5 @@
 package fr.training.kotlin.designpattern.factory.kotlin
 
-import fr.training.kotlin.designpattern.factory.kotlin.Document
-import fr.training.kotlin.designpattern.factory.kotlin.HtmlElementFactory
-import fr.training.kotlin.designpattern.factory.kotlin.MarkdownElementFactory
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 

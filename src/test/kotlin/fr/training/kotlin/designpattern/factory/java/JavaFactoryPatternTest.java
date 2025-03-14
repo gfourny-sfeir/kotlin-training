@@ -3,10 +3,6 @@ package fr.training.kotlin.designpattern.factory.java;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import fr.training.kotlin.designpattern.factory.java.Document;
-import fr.training.kotlin.designpattern.factory.java.HtmlElementFactory;
-import fr.training.kotlin.designpattern.factory.java.MarkdownElementFactory;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class JavaFactoryPatternTest {

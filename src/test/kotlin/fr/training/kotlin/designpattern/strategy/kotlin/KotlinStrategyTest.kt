@@ -1,9 +1,5 @@
 package fr.training.kotlin.designpattern.strategy.kotlin
 
-import fr.training.kotlin.designpattern.strategy.kotlin.FormField
-import fr.training.kotlin.designpattern.strategy.kotlin.emailValidator
-import fr.training.kotlin.designpattern.strategy.kotlin.passwordValidator
-import fr.training.kotlin.designpattern.strategy.kotlin.userNameValidator
 import org.assertj.core.api.SoftAssertions.assertSoftly
 import org.junit.jupiter.api.Test
 

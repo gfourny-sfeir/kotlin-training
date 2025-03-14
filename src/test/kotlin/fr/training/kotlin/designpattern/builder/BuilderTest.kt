@@ -1,7 +1,5 @@
 package fr.training.kotlin.designpattern.builder
 
-import fr.training.kotlin.designpattern.builder.JavaFacture
-import fr.training.kotlin.designpattern.builder.buildKotlinFacture
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import java.math.BigDecimal
