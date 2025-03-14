@@ -15,13 +15,10 @@ sealed interface KotlinVehicule {
 class KotlinExpressions {
 
     fun whenExpression(vehicle: KotlinVehicule): String {
-        return when (vehicle) {
-            is KotlinVehicule.Renault -> "La voiture Renault a ${vehicle.numberOfWheels} roues"
-            is KotlinVehicule.Suzuki -> "La moto Suzuki a ${vehicle.numberOfWheels} roues"
-        }
+        return "Not implemented yet"
     }
 
     fun ifExpression(vehicle: KotlinVehicule): String {
-        return if (vehicle is KotlinVehicule.Suzuki) "La moto Suzuki a ${vehicle.numberOfWheels} roues" else "N'est pas une moto Suzuki"
+        return "Not implemented yet"
     }
 }

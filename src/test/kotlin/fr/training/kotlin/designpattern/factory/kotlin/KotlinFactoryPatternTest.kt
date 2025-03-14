@@ -1,9 +1,5 @@
 package fr.training.kotlin.designpattern.factory.kotlin
 
-import fr.training.kotlin.designpattern.factory.kotlin.Document
-import fr.training.kotlin.designpattern.factory.kotlin.HtmlElementFactory
-import fr.training.kotlin.designpattern.factory.kotlin.MarkdownElementFactory
-import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
 class KotlinFactoryPatternTest {
@@ -11,7 +7,8 @@ class KotlinFactoryPatternTest {
     @Test
     fun `More concise Factory Pattern with Kotlin`() {
 
-        val htmlDocument = Document(HtmlElementFactory)
+        // TODO décommenter le test et implémenter le fichier KotlinFactoryPattern.kt
+        /*val htmlDocument = Document(HtmlElementFactory)
         htmlDocument.addHeading(1, "Titre du document")
         htmlDocument.addParagraph("Contenu du document")
         htmlDocument.addLink("Lien vers Google", "http://www.google.com")
@@ -35,6 +32,6 @@ class KotlinFactoryPatternTest {
                 # Titre du document
                 Contenu du document
                 [Lien vers Google](http://www.google.com)
-            """.trimIndent())
+            """.trimIndent())*/
     }
 }

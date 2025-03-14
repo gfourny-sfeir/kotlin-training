@@ -1,7 +1,5 @@
 package fr.training.kotlin.designpattern.builder
 
-import fr.training.kotlin.designpattern.builder.JavaFacture
-import fr.training.kotlin.designpattern.builder.buildKotlinFacture
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import java.math.BigDecimal
@@ -23,12 +21,13 @@ class BuilderTest {
     @Test
     fun `I ❤️ even more Kotlin builders`() {
 
-        val facture = buildKotlinFacture {
+        // TODO décommenter le code afin d'effectuer son implémentation
+        /*val facture = buildKotlinFacture {
             id = "id"
             fournisseur = "fournisseur"
             montant = BigDecimal(100)
         }
 
-        assertThat(facture).isNotNull.hasNoNullFieldsOrPropertiesExcept()
+        assertThat(facture).isNotNull.hasNoNullFieldsOrPropertiesExcept()*/
     }
 }

@@ -11,12 +11,14 @@ package fr.training.kotlin.designpattern.strategy.kotlin
  *   - [Kotlin typealias](https://kotlinlang.org/docs/type-aliases.html)
  */
 
-typealias Validator = (field: String) -> Boolean
+//TODO décommentez et remplacez les '?' par l'implémentation attendue
+/*
+typealias Validator = ?
 
-val emailValidator: Validator = { it.contains("@") && it.contains(".") }
-val userNameValidator: Validator = { it.isNotEmpty() }
-val passwordValidator: Validator = { it.length >= 8 }
+val emailValidator: Validator = ?
+val userNameValidator: Validator = ?
+val passwordValidator: Validator = ?
 
 data class FormField(val name: String, val value: String, private val validator: Validator) {
     fun isValid() = validator(value)
-}
+}*/

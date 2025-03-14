@@ -1,6 +1,5 @@
 package fr.training.kotlin.basic.list
 
-import fr.training.kotlin.basic.list.EmployeesUtilKt
 import fr.training.kotlin.data.EmployeeFactory
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test

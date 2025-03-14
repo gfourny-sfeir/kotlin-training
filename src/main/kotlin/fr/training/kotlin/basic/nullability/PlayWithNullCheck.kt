@@ -7,7 +7,7 @@ package fr.training.kotlin.basic.nullability
  */
 class PlayWithNullCheck {
 
-    fun check(value: String?): String = value?: "Null Value"
+    fun check(value: String?): String = "Not implemented yet"
 
-    fun checkWithException(value: String?): String = checkNotNull(value) {"Null Value"}
+    fun checkWithException(value: String?): String = "Not implemented yet"
 }

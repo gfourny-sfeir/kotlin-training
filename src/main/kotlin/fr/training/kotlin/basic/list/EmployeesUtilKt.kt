@@ -4,19 +4,21 @@ package fr.training.kotlin.basic.list
  * En s'appuyant sur les implémentations de [EmployeesUtilJava], implémenter leurs équivalences en Kotlin.
  *
  * Vous trouverez les opérations sur la [documentation de Kotlin](https://kotlinlang.org/docs/collections-overview.html)
+ * Tips :
+ *   - Il n'y a pas besoin de déclarer des variables intermédiaires, utiliser les [opérations de collections (équivalent API Stream Java)](https://kotlinlang.org/docs/collection-operations.html)
  */
 class EmployeesUtilKt {
 
-    fun listMatricule(employees: List<Employee>): List<String> = employees.map(Employee::matricule)
+    fun listMatricule(employees: List<Employee>): List<String> = listOf()
 
-    fun listGreaterThanSalary(employees: List<Employee>, minimumSalary: Int): List<Employee> = employees.filter { it.salaire > minimumSalary }
+    fun listGreaterThanSalary(employees: List<Employee>, minimumSalary: Int): List<Employee> = listOf()
 
-    fun groupBySalary(employees: List<Employee>): Map<Int, List<Employee>> = employees.groupBy(Employee::salaire)
+    fun groupBySalary(employees: List<Employee>): Map<Int, List<Employee>> = mapOf()
 
-    fun splitEmployeesBySalary(employees: List<Employee>, salary: Int): Map<Boolean, List<Employee>> = employees.groupBy { it.salaire > salary }
+    fun splitEmployeesBySalary(employees: List<Employee>, salary: Int): Map<Boolean, List<Employee>> = mapOf()
 
-    fun splitEmployeesNameBySalary(employees: List<Employee>, salary: Int): Map<Boolean, List<String>> = employees.groupBy(
-        keySelector = { it.salaire > salary },
-        valueTransform = (Employee::nom)
-    )
+    /**
+     * Pour plus de lisibilité, il est possible de nommer les arguments dans l'appel d'une fonction [Named Arguments](https://kotlinlang.org/docs/functions.html#named-arguments)
+     */
+    fun splitEmployeesNameBySalary(employees: List<Employee>, salary: Int): Map<Boolean, List<String>> = mapOf()
 }

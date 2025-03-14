@@ -1,10 +1,8 @@
 package fr.training.kotlin.basic.nullability
 
-import fr.training.kotlin.basic.nullability.PlayWithNullCheck
 import org.assertj.core.api.Assertions.assertThat
 import org.assertj.core.api.Assertions.assertThatExceptionOfType
 import org.junit.jupiter.api.Test
-import java.lang.IllegalStateException
 
 class PlayWithNullCheckTest {
 
