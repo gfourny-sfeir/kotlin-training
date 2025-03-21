@@ -1,4 +1,4 @@
-# fr-log-training-kotlin
+# Training Kotlin
 
 > Atelier découverte et formation Kotlin
 
